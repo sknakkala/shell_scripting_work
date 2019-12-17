@@ -7,5 +7,5 @@ case $1 in
   "Validation" )
     echo "executing validation" ;;
   * )
-    echo "unknown arg" ;;
+    echo "unknown arg: $1" ;;
 esac

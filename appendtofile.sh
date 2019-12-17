@@ -13,7 +13,7 @@ then
     read permission_flag
       if [ "$permission_flag" = "y" ]
       then
-        sh -c chmod +x $1
+        sh -c chmod +w $1
       elif [ "$permission_flag" = "N" ]
       then
         echo "Cannot proceed further"

@@ -12,4 +12,6 @@ fi
 if [[ $input -gt 18 && $input -le 30 ]]
 then
   echo "two brackets in single condition"
+else
+  echo "nothing matched"
 fi
